@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+:root {
+  --brand-red: #c62828;
+  --brand-red-dark: #a61e1e;
+  --brand-green: #2e7d32;
+  --brand-green-dark: #1b5e20;
+  --brand-cream: #fff7f0;
+  --brand-brown: #1f1a17;
+  --brand-gold: #f5c16c;
+  --brand-soft: #f7efe8;
+
+  font-family: "Inter", "Segoe UI", sans-serif;
+  color: #1f1a17;
+  background-color: var(--brand-cream);
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: var(--brand-cream);
+  color: var(--brand-brown);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
